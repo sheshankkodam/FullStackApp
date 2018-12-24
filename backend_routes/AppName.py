@@ -7,5 +7,5 @@ class AppName(Resource):
         self.__HEADERS = {'Cache-Control': 'private, max-age=0, no-cache', 'Content-type': 'application/json'}
 
     def get(self):
-        resp = {"name": "frontend app"}
+        resp = {"name": "FullStack App"}
         return resp, httplib.OK, self.__HEADERS
