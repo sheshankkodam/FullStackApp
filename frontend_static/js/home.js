@@ -1,6 +1,3 @@
-/**
- * Created by saksham.ghimire on 8/10/16.
- */
 var name_url = "/api/v1/name";
 
 $('#submit').click(function (e) {
